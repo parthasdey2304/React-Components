@@ -11,27 +11,29 @@ The project has a well-organized folder structure that contains only the reusabl
 ```
 src/
 ├── components/
-│   ├── Button/
-│   │   ├── Button.jsx
-│   │   └── Button.css
-│   ├── Card/
-│   │   ├── Card.jsx
-│   │   └── Card.css
-│   └── Modal/
-│       ├── Modal.jsx
-│       └── Modal.css
-├── .eslintrc.cjs
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── index.html
-├── LICENSE
-├── package-lock.json
-├── package.json
-└── vite.config.js
-```
+│   ├── Blogs1.jsx
+│   ├── Blogs2.jsx
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Credit_Card.jsx
+│   ├── Footer.jsx
+│   ├── Login.jsx
+│   ├── Navbar.jsx
+│   ├── Pricing_Cards.jsx
+│   └── SearchBar.jsx
+├── App.jsx
+└── main.jsx
+.eslintrc.cjs
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+index.html
+LICENSE
+package-lock.json
+package.json
+vite.config.js
 
-Each component (Button, Card, Modal) has its own folder containing the JSX file for logic and a CSS file for styles, promoting modularity and ease of access.
+```
 
 ## Technologies Used
 - **React** (v18.2.0) - JavaScript library for building user interfaces.
