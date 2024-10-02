@@ -3,6 +3,38 @@
 ## Overview
 **REACT-COMPONENTS** is a React-based project designed to showcase reusable UI components built with modern web development tools. This project is focused on delivering high-quality, animated, and customizable components that can easily be integrated into various web applications.
 
+Directory Structure
+-------------------
+
+The project has a well-organized folder structure that contains only the reusable components. Here’s the current layout:
+
+```
+src/
+├── components/
+│   ├── Blogs1.jsx
+│   ├── Blogs2.jsx
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Credit_Card.jsx
+│   ├── Footer.jsx
+│   ├── Login.jsx
+│   ├── Navbar.jsx
+│   ├── Pricing_Cards.jsx
+│   └── SearchBar.jsx
+├── App.jsx
+└── main.jsx
+.eslintrc.cjs
+.gitignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+index.html
+LICENSE
+package-lock.json
+package.json
+vite.config.js
+
+```
+
 ## Technologies Used
 - **React** (v18.2.0) - JavaScript library for building user interfaces.
 - **Framer Motion** (v11.9.0) - Motion library for React to create animations.
@@ -17,7 +49,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AnwitDahal/REACT-COMPONENTS.git
+   git clone https://github.com/parthasdey2304/React-Components.git
    cd react-components
 
 2.  **Install Dependencies** Make sure you have [Node.js](https://nodejs.org/) installed. Then, run the following command:
@@ -75,9 +107,20 @@ For more details, check out our [Contribution Guidelines](./CONTRIBUTING.md).
 Issue Tracking
 --------------
 
-If you encounter any bugs or have feature requests, please [open an issue](https://github.com/AnwitDahal/REACT-COMPONENTS/issues). Ensure that the issue hasn't already been reported. Provide detailed information to help us understand and resolve the issue quickly.
+If you encounter any bugs or have feature requests, please [open an issue](https://github.com/parthasdey2304/REACT-COMPONENTS/issues). Ensure that the issue hasn't already been reported. Provide detailed information to help us understand and resolve the issue quickly.
 
 License
 -------
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+Contact Information
+-------------------
+
+For any questions or suggestions, feel free to reach out:
+
+*   **Name**: Parth Vastavik
+*   **GitHub**: [Parth Vastavik](https://github.com/parthasdey2304)
+*   **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/sarathiparth/)
+
+* * *
