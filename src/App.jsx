@@ -1,5 +1,6 @@
 import Blogs1 from "./components/Blogs1"
 import Blogs2 from "./components/Blogs2"
+import LandingPage from "./Pages/LandingPage"
 
 function App() {
   return (

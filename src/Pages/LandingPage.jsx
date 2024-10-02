@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const LandingPage = () => {
   return (
-<div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900">
+<div className="h-full flex flex-col ">
   {/* Hero Section */}
-  <section className="flex flex-col justify-center items-center text-center py-20 text-white px-6 lg:pt-[50rem] pt-[100rem] ">
+  <section className="flex flex-col justify-center items-center text-center py-20 text-white px-6  bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900 mb-2">
     <motion.h1
       className="text-3xl sm:text-4xl font-bold mb-6"
       initial={{ opacity: 0, y: -50 }}
@@ -24,7 +24,7 @@ const LandingPage = () => {
     </motion.p>
     <motion.a
       href="#features"
-      className="bg-white text-indigo-500 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-700 hover:text-white transition-colors"
+      className="bg-white text-indigo-500 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-700 hover:text-white transition-colors "
       whileHover={{ scale: 1.1 }}
     >
       Get Started
@@ -32,7 +32,7 @@ const LandingPage = () => {
   </section>
 
   {/* Features Section */}
-  <section id="features" className="py-16 text-center text-white px-6">
+  <section id="features" className="py-16 text-center text-white px-6 bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900 mb-2">
     <motion.h2
       className="text-2xl sm:text-3xl font-semibold mb-12"
       initial={{ opacity: 0 }}
@@ -70,7 +70,7 @@ const LandingPage = () => {
   </section>
 
   {/* Components Preview Section */}
-  <section className="py-16 text-white">
+  <section className="py-16 text-white bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900 mb-2">
     <motion.h2
       className="text-2xl sm:text-3xl font-semibold text-center mb-12 "
       initial={{ opacity: 0 }}
@@ -92,7 +92,7 @@ const LandingPage = () => {
   </section>
 
   {/* Call-to-Action Section */}
-  <section className="py-16 text-center text-white px-6">
+  <section className="py-16 text-center text-white px-6 bg-gradient-to-br from-blue-900 via-gray-800 to-gray-900">
     <motion.h2
       className="text-2xl sm:text-3xl font-semibold mb-6"
       initial={{ opacity: 0 }}
