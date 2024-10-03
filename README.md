@@ -20,7 +20,10 @@ src/
 │   ├── Login.jsx
 │   ├── Navbar.jsx
 │   ├── Pricing_Cards.jsx
+|   |__ Accordion.jsx
+|   |
 │   └── SearchBar.jsx
+|
 ├── App.jsx
 └── main.jsx
 .eslintrc.cjs
